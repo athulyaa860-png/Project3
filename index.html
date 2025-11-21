@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap project</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <style>
+        .box-1 {
+            margin: 10px;
+            padding: 10px;
+            min-height: 20px;
+            font-size: 20PX;
+        }
+
+        .box-2,
+        .box-3 {
+            /* background-color: rgb(124, 124, 247); */
+            min-height: 300px;
+
+        }
+
+        .box-2 {
+            text-align: right;
+
+        }
+
+        .box-3 {
+            color: white;
+            padding: 30px 0;
+            margin: 15px;
+
+
+        }
+
+        .box {
+            margin: 10px;
+        }
+
+        #sec2 {
+            background-color: rgb(126, 126, 240);
+            padding: 50px 0;
+        }
+
+        .line {
+            background-color: aliceblue;
+            height: 2px;
+            width: 50%;
+        }
+
+        .img {
+            height: 400px;
+            /* margin:30px 0px 0px 350px; */
+
+        }
+
+        .line1 {
+            background-color: #151414;
+            text-align: center;
+            height: 2px;
+            width: 10%;
+
+        }
+
+        .btn1 {
+            background-color: white;
+            text-decoration: none;
+            /* padding: 5px; */
+
+        }
+
+        .btn2 {
+            border: 2px solid blue;
+            padding: 5px;
+            text-decoration: none;
+        }
+
+        .text {
+            text-align: center;
+            /* height: 200px; */
+            padding: 50px 0;
+        }
+
+        .icons {
+            background-color: rgb(126, 126, 240);
+            color: #fff;
+          
+            text-align: center;
+            padding: 30px 0;
+
+        }
+
+        .icon1 {
+            border: 2px solid white;
+            max-height: 100px;
+            width: 50px;
+            border-radius: 50%;
+            margin: auto;
+
+
+        }
+
+        .icon2 {
+            border: 2px solid #fff;
+
+            max-height: 100px;
+            width: 50px;
+            border-radius: 50%;
+            margin: auto;
+
+        }
+
+        .icon3 {
+            border: 2px solid #fff;
+            max-height: 100px;
+            width: 50px;
+            border-radius: 50%;
+            margin: auto;
+
+        }
+
+        .chinook{
+            background-color: black;
+            text-align: center;
+            color: #fff;
+            /* min-height: 200px; */
+            padding: 20px 0;
+        }
+
+        .btn3 {
+            background-color: #fff;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        .images,.imge {
+            height: 300px;
+            /* width:250px; */
+            object-fit: cover;
+            object-position: top;
+
+
+        }
+        .box{
+            background-color: aqua;
+            height: 300px;
+        }
+
+        .gallery {
+            text-align: center;
+        }
+
+       
+
+        .footer {
+            background-color: #151414;
+            text-align: center;
+            color: #fff;
+            min-height: 50px;
+
+        }
+
+
+        @media(max-width:768px) {
+
+            .box-2,
+            .box-3 {
+                text-align: center;
+            }
+
+            .line {
+                margin: auto;
+            }
+            .img {
+            height: 250px;
+            /* margin:30px 0px 0px 350px; */
+
+        }
+
+        }
+    </style>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="box-1">
+                        <p data-aos="fade-up" data-aos-duration="1000"><b>INDOCHINO </b><br>made to measure</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec2">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="box-2" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="img1-removebg-preview.png" alt="" class="img mb-4" >
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-12">
+                    <div class="box-3" data-aos="fade-up" data-aos-duration="1000">
+                        <p><b>THE TAILOR IS IN</b><br><br>The ultimate custom menswear ecperience <br> is now open in
+                            <b>Chinook Centre.
+                            </b>
+                            <br><br>
+
+                        <div class="line"></div>
+                        <br>Visit us by April 30 to be entered in a draw <br> for a perfectly tailored wardrobe.</p>
+                        <a href="#" class="btn1 px-4 py-2 rounded" ><b>BOOK AN APPOINMENT</b></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="text">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="h2">THE MADE TO MEASURE DIFFERENCE</h2>
+            <!-- <div class="line1"></div> -->
+            <P>We create suits and shits customized to your exact measurements and personal style, at <br>exellent
+                prices</P>
+            <a href="#" class="btn2 rounded px-2">SEE THE SUITS</a>
+
+        </div>
+    </section>
+    <section class="icons" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-2">
+                    <div class="icon1 mb-2">
+                        <img src="icons8-measurement-ui-30.png" alt="" width="100%">
+                    </div>
+                    <h4>COME SEE US</h4>
+                    <P>Shedule an appoinment with a Style Guide.<br>we ll take your measurment and walk you <br>throught
+                        all your suiting options </P>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-2">
+                    <div class="icon2 mb-2">
+                        <img src="icons8-calendar-50.png" alt="" width="100%">
+                    </div>
+                    <h4>MAKE IT YOUR OWN</h4>
+                    <p>Choose the fabrics you love and the <br> customization you can't live without- <br>everything
+                        from lapels to linings to monograms <br> and contracts buttonhole stiching.</p>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 mt-2">
+                    <div class="icon3 mb-2">
+                        <img src="icons8-custom-suits-and-shirts-78.png" alt="" width="100%">
+                    </div>
+                    <h4>PERFECT THE FIT </h4>
+                    <P>When your suit arrives in around four weeks, <br>Come back to our showroom for any final
+                        <br>alterations-our expert tailors ensure your <br>garment fits just right.
+                    </P>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="chinook" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>VISIT US AT CHINOOK CENTER </h3>
+                    <P>Mon to sat 9:30-9 <br>Sun 11-7</P>
+                    <p>Across from lululemon on level 1</p>
+                    <p>Grand opening on april 6</p>
+                    <a href="#" class="btn3 px-4 rounded">BOOK AN APPOINMENT</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="gallery" style="padding-top: 30px;" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <h3>#INDOCHINO</h3>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="image9.jpeg" alt="" class="images" width="100%">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="image2.webp" alt="" class="images" width="100%">
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="image3.jpg" alt="" class="images" width="100%">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="image4.jpg" alt="" class="images" width="100%">
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="image5.jpg" alt="" class="imge" width="100%">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="img23.jpg" alt="" class="imge" width="100%" >
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="img123.jpg" alt="" class="imge" width="100%" >
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="image8.webp" alt="" class="imge" width="100%" >
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section style="background-color: #151414; text-align: center; color: white; padding-top: 30px; height:200px;" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h6>INDOCHINO IN THE NEWS</h6>
+                    <P>"Indochino:The it's-Too-Good-To-Be- <br>True-That's-Acually-True-Custom Suit"</P>
+                    <a href="#" class="btn3 px-4 rounded">BOOK AN APPOINMENT</a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section style="background-color: white; padding-top: 30px;color: black; text-align: center; height:150px;" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="fs.png" alt="">
+                    <img src="in.png" alt="">
+                    <img src="ws.png" alt="">
+                    <h6>Copyright 2006-2007 indochino inc.All rights reserved.</h6>
+                    <a href="#" class="btn btn-dark">*See contest terms and conditions</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
+   
+</body>
+
+</html>
